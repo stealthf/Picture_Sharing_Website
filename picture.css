@@ -1,0 +1,253 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: arial;
+}
+
+a img{
+	border: none;
+}
+
+body{
+	background: #C7C7C7;
+}
+
+.wrapper{
+	background-color: white;
+	width: 750px;
+	border: 1px solid;
+	border-color: #E1E1E1;
+	margin: 10px auto 10px auto;
+	height: auto;
+}
+
+.like_warpper{
+	margin: 10px;
+	border: 1px solid;
+	border-color: #E1E1E1;
+	height: auto;
+	width: auto;
+	color: black;
+}
+h3.like_title{
+	height: 40px;
+	line-height: 37px;
+	font-size: 20px;
+	margin: 0 5px 0 5px;
+	color: grey;
+	border-bottom: 1px solid #E1E1E1;;
+}
+
+.like_button{
+	float: left;
+	margin: 5px 0 0 10px;
+	height: 25px;
+	width: 60px;
+	cursor: pointer;
+}
+
+.like_button img.button_image{
+	height: 25px;
+	width: 60px;
+	border: 1px solid #E1E1E1;
+}
+
+.like_button:hover{
+	border: 1px solid #A1A1A1;
+}
+
+.like_list{
+	clear: both;
+	color: grey;
+	width: auto;
+	height: auto;
+	margin: 40px 10px 10px 20px;
+	font-size: 13px;
+	word-wrap: normal;
+}
+
+.comment_wrapper{
+	margin: 10px;
+	border: 1px solid;
+	border-color: #E1E1E1;
+	height: auto;
+	width: auto;
+	color: black;
+}
+.page-data{
+	height: auto;
+	width: auto;
+	margin: 20px ;
+}
+
+.page-data img.photo
+{
+	height: 500px;
+	width: 710px;
+}
+
+h3.comment_title{
+	height: 40px;
+	line-height: 37px;
+	font-size: 20px;
+	margin: 0 5px 0 5px;
+	color: grey;
+	border-bottom: 1px solid #E1E1E1;;
+}
+
+.comment_insert{
+	height: 150px;
+	width: auto;
+	margin: 10px 5px 10px 5px;
+	border: 1px solid #E1E1E1;
+	position: relative;
+}
+
+.comment_insert h3.user{
+	height:35px;
+	line-height: 32px;
+	color:#2E5CB8;
+	font-size: 14px;
+	width: auto;
+	margin: 0 10px 0 10px;
+	border-bottom: 1px solid #E1E1E1;
+}
+
+.comment_insert h3.user span{
+	color: #254A93;
+}
+
+.comment_insert .comment_insert_container{
+	margin: 5px 10px 5px 10px;
+	height: 100px;
+	width: auto;
+	border: 1px solid #E1E1E1;
+}
+
+.comment_insert .comment_insert_container:hover{
+	border: 1px solid #C1C1C1;
+}
+
+.comment_insert textarea.comment_insert_text{
+	width: 100%;
+	height: 100%;
+	border: none;
+}
+
+.comment_list{
+	height: auto;
+	font-size: 13px;
+	margin: 10px 5px 5px 5px;
+	color: black;
+}
+
+ul.comment_holder_ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	width: auto;
+	height: auto;
+	overflow: hidden;
+}
+
+ul.comment_holder_ul li.comment_holder_li{
+	list-style-type: none;
+	background-color: white;
+	height: auto;
+	width: auto;
+	margin: 5px 0 10px 0;
+	border: 1px solid;
+	border-color: #E1E1E1;
+	position: relative;
+}
+
+ul.comment_holder_ul li.comment_holder_li:hover{
+	border-color: #C1C1C1;
+}
+
+ul.comment_holder_ul li.comment_holder_li h3.username_field{
+	float: left;
+	margin: 2px 0 0 10px;
+	height: 30px;
+	line-height: 27px;
+	color: #2E5CB8;
+	font-size: 15px;
+}
+
+ul.comment_holder_ul li.comment_holder_li h3.username_field:hover{
+	color: #254A93;
+}
+
+ul.comment_holder_ul li.comment_holder_li .comment_text{
+	clear: both;
+	width: auto;
+	margin: 0 10px 10px 10px;
+	font-size: 13px;
+	word-wrap: normal;
+}
+
+ul.comment_holder_ul li.comment_holder_li .comment_time{
+	position: absolute;
+	top: 35px;
+	right: 5px;
+	height: 30px;
+	width: auto;
+	color: #A1A1A1;
+	font-size: 15px;
+}
+
+ul.comment_holder_ul li.comment_holder_li:hover .comment_button_holder{
+	display: block;
+}
+
+.comment_button_holder{
+	display: none;
+	position:absolute;
+	top: 0px;
+	right: 0px;
+	width: 100px;
+	height: 20px;
+}
+
+.comment_button_holder ul{
+	list-style: none;
+	width:auto;
+	height: auto;
+	overflow: hidden;
+}
+
+.comment_button_holder ul li{
+	float: right;
+	height: 20px;
+	width: 20px;
+	text-align: center;
+	line-height: 19px;
+	color: white;
+	background: #2E5CB8;
+	cursor: pointer;
+}
+
+.comment_button_holder ul li:hover{
+	color: #444;
+	background: #6D8DCD;
+}
+
+.comment_post_button{
+	position: absolute;
+	top: 5px;
+	right: 10px;
+	width: 60px;
+	height: 25px;
+	line-height: 22px;
+	background: #6989CC;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	cursor: pointer;
+	border: 1px solid #E1E1E1;
+}
+
+.comment_post_button:hover{
+	background: #5E7BB8;
+}
